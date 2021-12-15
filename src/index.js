@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import App from './App';
+// import LessText from './components/LessText';
+// import UseEffectSemArray from './components/UseEffectSemArray';
+// import UseEffectComArray from './components/UseEffectComArray';
+// import UseEffectComDependencia from './components/UseEffectComDependencia';
+import ComponentRef from './components/ComponentRef';
+// import BlinkyRender from './components/BlinkyRender';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <LessText 
+      text="Olá Danilo, como vai ?"
+      maxLength={5}/> */}
+    {/* <UseEffectComArray /> */}
+    {/* <UseEffectComDependencia />   */}
+    {/* <BlinkyRender /> */}
+    <ComponentRef />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
